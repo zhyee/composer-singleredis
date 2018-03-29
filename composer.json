@@ -1,0 +1,22 @@
+{
+    "name": "zhyee/composer-singleredis",
+    "description": "a composer lib test",
+    "keywords": ["redis", "demo", "example"],
+    "type": "library",
+    "require": {
+        "monolog/monolog": "1.*"
+    },
+    "autoload": {
+        "psr-4" :{
+            "singleton\\": "singleton/redis"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhyee",
+            "email": "1054948153@qq.com",
+            "homepage": "http://blog.csdn.net/zhang197093"
+        }
+    ]
+}
