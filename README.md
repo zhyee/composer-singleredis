@@ -1,0 +1,2 @@
+# composer-singleredis
+composer-singleredis
