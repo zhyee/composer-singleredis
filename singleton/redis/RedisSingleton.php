@@ -8,7 +8,7 @@ class RedisSingleton {
 
     public static function getInstance(){
         if (self::$_redis == NULL) {
-            $_redis = new Redis();
+            $_redis = new \Redis();
             $_redis->connect("127.0.0.1", 6379);
         }
         return self::$_redis;
